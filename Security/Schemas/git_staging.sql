@@ -1,0 +1,3 @@
+CREATE SCHEMA [git_staging]
+AUTHORIZATION [dbo]
+GO

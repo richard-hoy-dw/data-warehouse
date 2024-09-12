@@ -1,0 +1,3 @@
+CREATE SCHEMA [RH_temp]
+AUTHORIZATION [dbo]
+GO
