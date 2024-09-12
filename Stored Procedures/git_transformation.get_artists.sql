@@ -16,7 +16,7 @@ INSERT INTO [git_transformation].[Artists]
 					[Artist]
 			FROM	[RH_TestDB].[git_staging].[source] S
 			WHERE	NOT EXISTS
-				(	SELECT	'x'
+				(	SELECT	1
 					FROM	git_transformation.[Artists] A1
 					WHERE	S.[Artist] = A1.[ArtistDescr]))
 
