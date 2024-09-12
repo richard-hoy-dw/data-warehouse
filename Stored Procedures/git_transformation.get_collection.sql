@@ -8,7 +8,7 @@ AS
 	BEGIN
 
 	TRUNCATE TABLE [git_transformation].[Collection]
-	
+	--change for branch ds-111
 		INSERT INTO [git_transformation].[Collection]
 			(
 				[Catalog#]
